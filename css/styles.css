@@ -46,7 +46,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 /* .flex_box {
@@ -473,6 +473,20 @@ img {
   background-color: var(--accent-color);
 }
 
+.buttons_margin {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons_margin .buttons_mrg + .buttons_mrg {
+  margin-left: 10px;
+}
+
+.keys_mrg_bot {
+  margin-top: 95px;
+  margin-bottom: 50px;
+}
+
 .project_title {
   font-weight: 700;
   font-size: 18px;
@@ -487,4 +501,22 @@ img {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--photo-color);
+}
+
+.portfolio_projects {
+  margin: 15px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  /* display: block-inline;
+  flex-basis: calc ((100% - 60px) / 3); */
+}
+
+.text_under_photo_in_portfolio {
+  margin: 20px 24px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

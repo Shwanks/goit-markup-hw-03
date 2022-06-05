@@ -42,7 +42,7 @@ img {
 }
 
 .container {
-  width: 1630px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -212,11 +212,6 @@ img {
 } */
 
 .solution_section {
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
-
   /* display: block; */
   /* font-weight: 900;
   font-size: 44px;
@@ -262,7 +257,7 @@ img {
 
   margin: 0 auto;
 
-  margin-top: -250px;
+  /* margin-top: -250px; */
   /* padding: 10px 32px; */
 
   cursor: pointer;
@@ -270,10 +265,7 @@ img {
 
 .solution_flex {
   display: flex;
-  /* align-items: center; */
-  justify-items: end;
-
-  /* box-sizing: content-box; */
+  justify-content: center;
 }
 
 .skills_item {

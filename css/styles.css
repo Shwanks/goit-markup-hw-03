@@ -46,7 +46,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
 }
 
 /* .flex_box {
@@ -360,9 +360,6 @@ img {
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
-
-  /* padding: 320px 70px 30px 70px; */
-
   color: var(--photo-color);
 }
 
@@ -370,14 +367,8 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-
-  /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
-
-  /* padding: 290px 60px 60px 60px; */
-  /* margin-bottom: 10px; */
-
   color: var(--title-color);
 }
 
@@ -398,6 +389,10 @@ img {
 .comand_flex {
   display: flex;
   justify-content: center;
+}
+
+.comand_flex .comand_item + .comand_item {
+  margin-left: 30px;
 }
 
 .command_margin_bot {

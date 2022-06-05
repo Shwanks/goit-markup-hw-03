@@ -42,7 +42,7 @@ img {
 }
 
 .container {
-  width: 1200px;
+  width: 1600px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -131,7 +131,7 @@ img {
 
 .header_flex {
   display: flex;
-  margin-left: 95px;
+  /* margin-left: 95px; */
 }
 
 .header_item {
@@ -168,7 +168,7 @@ img {
 }
 
 .header_logo_margin_left {
-  margin-left: 50px;
+  margin-left: 215px;
 }
 
 .header_cont {
@@ -186,7 +186,10 @@ img {
 /* -------------------SOLUTION--------------- */
 
 .test_style_for_effect {
-  display: inline-block;
+  /* display: inline-block; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -194,7 +197,7 @@ img {
   align-items: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding: 200px 452px 280px 452px;
+  /* padding: 200px 452px 280px 452px; */
   box-sizing: content-box;
   max-width: 696px;
 }
@@ -212,6 +215,7 @@ img {
 } */
 
 .solution_section {
+  padding: 200px 0;
   /* display: block; */
   /* font-weight: 900;
   font-size: 44px;
@@ -268,8 +272,23 @@ img {
   justify-content: center;
 }
 
+.solution_flex .skills_item + .skills_item {
+  margin-left: 30px;
+}
+
 .skills_item {
+  display: inline-block;
   margin: var(--typical-margin);
+  max-width: 270px;
+}
+
+.solution_text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: #757575;
   max-width: 270px;
 }
 
@@ -294,6 +313,15 @@ img {
 
 /* -------------------WORK--------------- */
 
+.work_flex {
+  display: flex;
+  justify-content: center;
+}
+
+.work_margin_bot {
+  margin-bottom: 95px;
+}
+
 .work_title {
   font-weight: 700;
   font-size: 36px;
@@ -311,6 +339,10 @@ img {
 }
 
 /* -------------------COMAND--------------- */
+
+.comand {
+  background-color: #f5f4fa;
+}
 
 .comand_title {
   font-weight: 700;
@@ -351,14 +383,36 @@ img {
 .comand_item {
   margin-right: 30px;
   margin-bottom: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .photo_content {
   padding: 30px 0px;
   text-align: center;
+  background-color: #ffffff;
+}
+
+.comand_flex {
+  display: flex;
+  justify-content: center;
+}
+
+.command_margin_bot {
+  padding-bottom: 94px;
+}
+
+.comand_title {
+  padding-top: 95px;
 }
 
 /* -------------------CONTACTS--------------- */
+
+.footer_ul_padding_top {
+  padding: 60px 0;
+  padding-left: 215px;
+}
 
 .contacts {
   background: #2f303a;

@@ -127,6 +127,7 @@ img {
 .header_nav {
   display: flex;
   align-items: center;
+  border: 1px solid #ececec;
 }
 
 .header_flex {

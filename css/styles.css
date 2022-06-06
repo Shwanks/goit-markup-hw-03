@@ -277,7 +277,7 @@ img {
 }
 
 .solution_flex .skills_item + .skills_item {
-  /* padding-left: 15px; */
+  padding-left: 20px;
 }
 
 .skills_item {
@@ -285,7 +285,7 @@ img {
   margin: var(--typical-margin);
   max-width: 270px;
   max-height: 75px;
-  padding-right: 30px;
+  /* padding-right: 30px; */
 }
 
 .solution_text {

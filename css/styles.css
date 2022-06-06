@@ -100,6 +100,7 @@ img {
 }
 
 .pre_title {
+  display: block;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -111,12 +112,13 @@ img {
 }
 
 .after_title {
-  display: block;
+  /* display: block; */
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
   width: var(--typical-width);
+  max-height: 75px;
 }
 
 /* -------------------HEADER--------------- */
@@ -275,23 +277,27 @@ img {
 }
 
 .solution_flex .skills_item + .skills_item {
-  padding-left: 30px;
+  /* padding-left: 15px; */
 }
 
 .skills_item {
   display: inline-block;
   margin: var(--typical-margin);
   max-width: 270px;
+  max-height: 75px;
+  padding-right: 30px;
 }
 
 .solution_text {
+  display: block;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 
   color: #757575;
-  max-width: 270px;
+  /* max-width: 270px; */
+  /* max-height: 75px; */
 }
 
 .skills {

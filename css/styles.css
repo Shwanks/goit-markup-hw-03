@@ -277,14 +277,14 @@ img {
 }
 
 .solution_flex .skills_item + .skills_item {
-  padding-left: 20px;
+  margin-left: 20px;
 }
 
 .skills_item {
   display: inline-block;
   margin: var(--typical-margin);
   max-width: 270px;
-  max-height: 75px;
+  /* max-height: 75px; */
   /* padding-right: 30px; */
 }
 
@@ -343,7 +343,7 @@ img {
 }
 
 .work_item {
-  margin-right: 30px;
+  padding-right: 30px;
 }
 
 /* -------------------COMAND--------------- */
@@ -383,7 +383,7 @@ img {
 
 .comand_item {
   margin-right: 15px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -406,11 +406,11 @@ img {
 }
 
 .command_padding_bot {
-  padding-bottom: 94px;
+  padding: 94px 0;
 }
 
 .comand_title {
-  padding-top: 95px;
+  /* padding-top: 95px; */
 }
 
 /* -------------------CONTACTS--------------- */
@@ -450,9 +450,13 @@ img {
   padding-top: 60px;
 }
 
-.footer_ul_padding_top {
+/* .footer_ul_padding_top {
   padding: 20px 0;
-  /* padding-left: 215px; */
+  padding-left: 215px;
+} */
+
+.footer_padding {
+  padding: 20px 0;
 }
 
 .contacts_item {
@@ -517,9 +521,10 @@ img {
 }
 
 .portfolio_projects {
-  margin: 7px;
+  width: 370px;
+  margin: 15px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
+  /* border: 1px solid #eeeeee; */
   /* display: block-inline;
   flex-basis: calc ((100% - 60px) / 3); */
 }
@@ -531,6 +536,7 @@ img {
 .cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  /* justify-content: center; */
   padding-bottom: 95px;
+  margin: -15px;
 }

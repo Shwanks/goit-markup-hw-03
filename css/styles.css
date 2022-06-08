@@ -17,7 +17,17 @@
 
 body {
   font-family: var(--main-font);
+  /* width: 1600px; */
 }
+
+/* .border{
+    border: 1px solid #ECECEC; */
+    /* width: 1600px;
+height: 0px;
+left: 0px;
+top: 80px; */
+/* } */
+
 
 p,
 h1,
@@ -139,6 +149,7 @@ img {
   padding-bottom: 32px;
   /* border: var(--header-border); */
   border-bottom: 1px solid #ececec;
+  /* border-width: 1600px; */
 }
 
 .header_flex {
